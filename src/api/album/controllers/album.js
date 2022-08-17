@@ -11,17 +11,19 @@ const fs = require("fs").promises;
 module.exports = createCoreController("api::album.album", ({ strapi }) => ({
   import: async (ctx) => {
     const { data } = await axios.get(
-      "https://core.bandas1album.com.br/wp-json/wp/v2/album?per_page=99&page=4"
+      "https://core.bandas1album.com.br/wp-json/wp/v2/album?per_page=99&page=3"
     );
     const albums = await Promise.all(
       data.map(
         (album) =>
           new Promise(async (resolve, reject) => {
             const {
+              id,
               title: { rendered: titleRendered },
               content: { rendered: contentRendered },
               date,
               images: { full: imageRendered },
+              generos_album,
               acf: {
                 artist: artistRendered,
                 released: releasedRendered,
@@ -52,6 +54,7 @@ module.exports = createCoreController("api::album.album", ({ strapi }) => ({
                 "api::album.album",
                 {
                   data: {
+                    id: id,
                     title: titleRendered,
                     content: contentRendered,
                     artist: artistRendered,
@@ -72,6 +75,7 @@ module.exports = createCoreController("api::album.album", ({ strapi }) => ({
                       download: downloadRendered,
                     },
                     tracklist: tracklistRendered,
+                    genres: generos_album,
                   },
                 }
               );

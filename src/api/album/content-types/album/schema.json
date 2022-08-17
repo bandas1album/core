@@ -46,6 +46,11 @@
     },
     "tracklist": {
       "type": "json"
+    },
+    "genres": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::genre.genre"
     }
   }
 }
