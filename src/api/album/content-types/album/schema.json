@@ -27,9 +27,6 @@
       "type": "date",
       "required": false
     },
-    "country": {
-      "type": "string"
-    },
     "label": {
       "type": "string"
     },
@@ -51,6 +48,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::genre.genre"
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country.country"
     }
   }
 }

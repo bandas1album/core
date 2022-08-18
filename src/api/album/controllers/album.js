@@ -11,7 +11,7 @@ const fs = require("fs").promises;
 module.exports = createCoreController("api::album.album", ({ strapi }) => ({
   import: async (ctx) => {
     const { data } = await axios.get(
-      "https://core.bandas1album.com.br/wp-json/wp/v2/album?per_page=99&page=3"
+      "https://core.bandas1album.com.br/wp-json/wp/v2/album?per_page=99&page=4"
     );
     const albums = await Promise.all(
       data.map(
@@ -50,6 +50,15 @@ module.exports = createCoreController("api::album.album", ({ strapi }) => ({
 
               const dateRendered = new Date(date);
 
+              const country = await strapi.entityService.findMany(
+                "api::country.country",
+                {
+                  filters: {
+                    title: countryRendered,
+                  },
+                }
+              );
+
               const created = await strapi.entityService.create(
                 "api::album.album",
                 {
@@ -64,7 +73,7 @@ module.exports = createCoreController("api::album.album", ({ strapi }) => ({
                       .split("-")
                       .join("-"),
                     cover: [fileId],
-                    country: countryRendered,
+                    country: country[0].id,
                     label: labelRendered,
                     social: {
                       amazon: amazonRendered,
