@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-18T03:54:28.123Z"
+    "x-generation-date": "2022-08-20T20:29:10.603Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -154,6 +154,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "slug": {
+                "type": "string"
               }
             }
           }
@@ -832,6 +835,9 @@
                                   "content": {
                                     "type": "string"
                                   },
+                                  "slug": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -1154,6 +1160,9 @@
                                 "content": {
                                   "type": "string"
                                 },
+                                "slug": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -1205,6 +1214,9 @@
                           }
                         }
                       }
+                    },
+                    "slug": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -1953,6 +1965,9 @@
                                 "content": {
                                   "type": "string"
                                 },
+                                "slug": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -2275,6 +2290,9 @@
                               "content": {
                                 "type": "string"
                               },
+                              "slug": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -2326,6 +2344,9 @@
                         }
                       }
                     }
+                  },
+                  "slug": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -2397,6 +2418,9 @@
               },
               "content": {
                 "type": "string"
+              },
+              "slug": {
+                "type": "string"
               }
             }
           }
@@ -2420,6 +2444,9 @@
                       "type": "string"
                     },
                     "content": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -2767,6 +2794,9 @@
                   "content": {
                     "type": "string"
                   },
+                  "slug": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -3088,6 +3118,9 @@
               },
               "content": {
                 "type": "string"
+              },
+              "slug": {
+                "type": "string"
               }
             }
           }
@@ -3111,6 +3144,9 @@
                       "type": "string"
                     },
                     "content": {
+                      "type": "string"
+                    },
+                    "slug": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -3456,6 +3492,9 @@
                     "type": "string"
                   },
                   "content": {
+                    "type": "string"
+                  },
+                  "slug": {
                     "type": "string"
                   },
                   "createdAt": {
