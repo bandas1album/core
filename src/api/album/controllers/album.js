@@ -40,9 +40,11 @@ module.exports = createCoreController("api::album.album", ({ strapi }) => ({
             } = album;
 
             try {
+              const imageUrl = typeof imageRendered === 'boolean' ? 'http://dummyimage.com/400.jpg' : imageRendered;
+
               const downloaded = await strapi
                 .service("api::album.download")
-                .download(imageRendered);
+                .download(imageUrl);
 
               const [{ id: fileId }] = await strapi
                 .service("api::album.upload")
