@@ -1,0 +1,31 @@
+{
+  "name": "core-bandas-1-album",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.11.0",
+    "@strapi/plugin-users-permissions": "4.11.0",
+    "@strapi/plugin-i18n": "4.11.0",
+    "better-sqlite3": "8.0.1",
+    "slugify": "^1.6.5"
+  },
+  "author": {
+    "name": "Kevin Oliveira"
+  },
+  "strapi": {
+    "uuid": "b7e96212-5bee-4dc5-a57e-1bba110f16f9"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

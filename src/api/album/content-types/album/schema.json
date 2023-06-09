@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "singularName": "album",
+    "pluralName": "albums",
+    "displayName": "Álbuns",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "artist": {
+      "type": "string",
+      "required": true
+    },
+    "released": {
+      "type": "date",
+      "required": false
+    },
+    "label": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "social": {
+      "type": "json"
+    },
+    "tracklist": {
+      "type": "json"
+    },
+    "genres": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::genre.genre"
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country.country"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
