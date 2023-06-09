@@ -14,7 +14,11 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
+<<<<<<< HEAD
     "x-generation-date": "2023-01-15T02:17:40.305Z"
+=======
+    "x-generation-date": "2023-06-09T02:27:27.016Z"
+>>>>>>> 181ea3b (Update strapi boilerplate)
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -10302,7 +10306,16 @@
             }
           }
         }
+<<<<<<< HEAD
       },
+=======
+      }
+    },
+    "parameters": {},
+    "responses": {},
+    "examples": {},
+    "requestBodies": {
+>>>>>>> 181ea3b (Update strapi boilerplate)
       "Users-Permissions-RoleRequest": {
         "required": true,
         "content": {
@@ -10342,11 +10355,15 @@
           }
         }
       }
+<<<<<<< HEAD
     },
     "parameters": {},
     "responses": {},
     "examples": {},
     "requestBodies": {}
+=======
+    }
+>>>>>>> 181ea3b (Update strapi boilerplate)
   },
   "paths": {
     "/albums": {
@@ -12197,12 +12214,23 @@
           {
             "in": "path",
             "name": "id",
+<<<<<<< HEAD
             "type": "string",
+=======
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "description": "role Id"
           }
         ],
         "responses": {
           "200": {
+<<<<<<< HEAD
+=======
+            "description": "Returns the role",
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "content": {
               "application/json": {
                 "schema": {
@@ -12318,7 +12346,11 @@
         ],
         "summary": "Create a role",
         "requestBody": {
+<<<<<<< HEAD
           "$ref": "#/components/schemas/Users-Permissions-RoleRequest"
+=======
+          "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
+>>>>>>> 181ea3b (Update strapi boilerplate)
         },
         "responses": {
           "200": {
@@ -12362,12 +12394,23 @@
           {
             "in": "path",
             "name": "role",
+<<<<<<< HEAD
             "type": "string",
+=======
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "description": "role Id"
           }
         ],
         "requestBody": {
+<<<<<<< HEAD
           "$ref": "#/components/schemas/Users-Permissions-RoleRequest"
+=======
+          "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
+>>>>>>> 181ea3b (Update strapi boilerplate)
         },
         "responses": {
           "200": {
@@ -12409,7 +12452,14 @@
           {
             "in": "path",
             "name": "role",
+<<<<<<< HEAD
             "type": "string",
+=======
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "description": "role Id"
           }
         ],
@@ -12484,7 +12534,11 @@
         "summary": "Get list of users",
         "responses": {
           "200": {
+<<<<<<< HEAD
             "summary": "Returns an array of users",
+=======
+            "description": "Returns an array of users",
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "content": {
               "application/json": {
                 "schema": {
@@ -12531,6 +12585,7 @@
             "application/json": {
               "schema": {
                 "type": "object",
+<<<<<<< HEAD
                 "properties": {
                   "email": {
                     "type": "string",
@@ -12543,6 +12598,22 @@
                   "password": {
                     "type": "string",
                     "required": true
+=======
+                "required": [
+                  "username",
+                  "email",
+                  "password"
+                ],
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+>>>>>>> 181ea3b (Update strapi boilerplate)
                   }
                 }
               },
@@ -12658,12 +12729,23 @@
           {
             "in": "path",
             "name": "id",
+<<<<<<< HEAD
             "type": "string",
+=======
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "description": "user Id"
           }
         ],
         "responses": {
           "200": {
+<<<<<<< HEAD
+=======
+            "description": "Returns a user",
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "content": {
               "application/json": {
                 "schema": {
@@ -12703,7 +12785,14 @@
           {
             "in": "path",
             "name": "id",
+<<<<<<< HEAD
             "type": "string",
+=======
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "description": "user Id"
           }
         ],
@@ -12713,6 +12802,7 @@
             "application/json": {
               "schema": {
                 "type": "object",
+<<<<<<< HEAD
                 "properties": {
                   "email": {
                     "type": "string",
@@ -12725,6 +12815,22 @@
                   "password": {
                     "type": "string",
                     "required": true
+=======
+                "required": [
+                  "username",
+                  "email",
+                  "password"
+                ],
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+>>>>>>> 181ea3b (Update strapi boilerplate)
                   }
                 }
               },
@@ -12794,6 +12900,20 @@
           "Users-Permissions - Users & Roles"
         ],
         "summary": "Delete a user",
+<<<<<<< HEAD
+=======
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "user Id"
+          }
+        ],
+>>>>>>> 181ea3b (Update strapi boilerplate)
         "responses": {
           "200": {
             "description": "Returns deleted user info",
@@ -12878,7 +12998,11 @@
                 }
               },
               "example": {
+<<<<<<< HEAD
                 "identier": "foobar",
+=======
+                "identifier": "foobar",
+>>>>>>> 181ea3b (Update strapi boilerplate)
                 "password": "Test1234"
               }
             }
@@ -12972,6 +13096,20 @@
           "Users-Permissions - Auth"
         ],
         "summary": "Default Callback from provider auth",
+<<<<<<< HEAD
+=======
+        "parameters": [
+          {
+            "name": "provider",
+            "in": "path",
+            "required": true,
+            "description": "Provider name",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+>>>>>>> 181ea3b (Update strapi boilerplate)
         "responses": {
           "200": {
             "description": "Returns a jwt token and user info",
@@ -13108,6 +13246,65 @@
         }
       }
     },
+<<<<<<< HEAD
+=======
+    "/auth/change-password": {
+      "post": {
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
+        "summary": "Update user's own password",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "password",
+                  "currentPassword",
+                  "passwordConfirmation"
+                ],
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  },
+                  "currentPassword": {
+                    "type": "string"
+                  },
+                  "passwordConfirmation": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Returns a jwt token and user info",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Users-Permissions-UserRegistration"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+>>>>>>> 181ea3b (Update strapi boilerplate)
     "/auth/email-confirmation": {
       "get": {
         "tags": [
@@ -13118,7 +13315,13 @@
           {
             "in": "query",
             "name": "confirmation",
+<<<<<<< HEAD
             "type": "string",
+=======
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3b (Update strapi boilerplate)
             "description": "confirmation token received by email"
           }
         ],

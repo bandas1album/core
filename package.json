@@ -1,5 +1,5 @@
 {
-  "name": "bandas-1-album-core",
+  "name": "core-bandas-1-album",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,31 +9,23 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.3.2",
-    "@strapi/plugin-graphql": "^4.3.4",
-    "@strapi/plugin-i18n": "4.3.2",
-    "@strapi/plugin-seo": "^1.7.4",
-    "@strapi/plugin-users-permissions": "4.3.2",
-    "@strapi/provider-upload-local": "^4.3.4",
-    "@strapi/strapi": "4.3.2",
-    "axios": "^0.27.2",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.11.0",
-    "pg-connection-string": "^2.6.0"
+    "@strapi/strapi": "4.11.0",
+    "@strapi/plugin-users-permissions": "4.11.0",
+    "@strapi/plugin-i18n": "4.11.0",
+    "better-sqlite3": "8.0.1",
+    "slugify": "^1.6.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Kevin Oliveira"
   },
   "strapi": {
     "uuid": "b7e96212-5bee-4dc5-a57e-1bba110f16f9"
   },
   "engines": {
-    "node": "14.17.6",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "slugify": "^1.6.5"
-  }
+  "license": "MIT"
 }
