@@ -27,7 +27,8 @@
   },
   "engines": {
     "node": "18.x.x",
-    "npm": ">=6.0.0"
+    "npm": "6.x",
+    "yarn": "1.x"
   },
   "license": "MIT"
 }
