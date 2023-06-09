@@ -17,7 +17,8 @@
     "better-sqlite3": "8.0.1",
     "pg": "^8.11.0",
     "pg-connection-string": "^2.6.0",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "strapi-plugin-slugify": "^2.3.2"
   },
   "author": {
     "name": "Kevin Oliveira"
