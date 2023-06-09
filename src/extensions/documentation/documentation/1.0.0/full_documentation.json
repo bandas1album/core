@@ -15,10 +15,14 @@
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "x-generation-date": "2023-01-15T02:17:40.305Z"
 =======
     "x-generation-date": "2023-06-09T02:27:27.016Z"
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+    "x-generation-date": "2023-06-09T02:27:27.016Z"
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -10307,15 +10311,21 @@
           }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       },
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
       }
     },
     "parameters": {},
     "responses": {},
     "examples": {},
     "requestBodies": {
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
       "Users-Permissions-RoleRequest": {
         "required": true,
         "content": {
@@ -10356,6 +10366,7 @@
         }
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
     "parameters": {},
     "responses": {},
@@ -10364,6 +10375,9 @@
 =======
     }
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+    }
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
   },
   "paths": {
     "/albums": {
@@ -12215,22 +12229,32 @@
             "in": "path",
             "name": "id",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "type": "string",
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "required": true,
             "schema": {
               "type": "string"
             },
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "description": "role Id"
           }
         ],
         "responses": {
           "200": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             "description": "Returns the role",
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+            "description": "Returns the role",
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "content": {
               "application/json": {
                 "schema": {
@@ -12347,10 +12371,14 @@
         "summary": "Create a role",
         "requestBody": {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "$ref": "#/components/schemas/Users-Permissions-RoleRequest"
 =======
           "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+          "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
         },
         "responses": {
           "200": {
@@ -12395,22 +12423,32 @@
             "in": "path",
             "name": "role",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "type": "string",
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "required": true,
             "schema": {
               "type": "string"
             },
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "description": "role Id"
           }
         ],
         "requestBody": {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "$ref": "#/components/schemas/Users-Permissions-RoleRequest"
 =======
           "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+          "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
         },
         "responses": {
           "200": {
@@ -12453,13 +12491,19 @@
             "in": "path",
             "name": "role",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "type": "string",
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "required": true,
             "schema": {
               "type": "string"
             },
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "description": "role Id"
           }
         ],
@@ -12535,10 +12579,14 @@
         "responses": {
           "200": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "summary": "Returns an array of users",
 =======
             "description": "Returns an array of users",
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+            "description": "Returns an array of users",
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "content": {
               "application/json": {
                 "schema": {
@@ -12586,6 +12634,7 @@
               "schema": {
                 "type": "object",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "properties": {
                   "email": {
                     "type": "string",
@@ -12599,6 +12648,8 @@
                     "type": "string",
                     "required": true
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
                 "required": [
                   "username",
                   "email",
@@ -12613,7 +12664,10 @@
                   },
                   "password": {
                     "type": "string"
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
                   }
                 }
               },
@@ -12730,22 +12784,32 @@
             "in": "path",
             "name": "id",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "type": "string",
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "required": true,
             "schema": {
               "type": "string"
             },
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "description": "user Id"
           }
         ],
         "responses": {
           "200": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             "description": "Returns a user",
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+            "description": "Returns a user",
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "content": {
               "application/json": {
                 "schema": {
@@ -12786,13 +12850,19 @@
             "in": "path",
             "name": "id",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "type": "string",
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "required": true,
             "schema": {
               "type": "string"
             },
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "description": "user Id"
           }
         ],
@@ -12802,6 +12872,7 @@
             "application/json": {
               "schema": {
                 "type": "object",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "properties": {
                   "email": {
@@ -12816,6 +12887,8 @@
                     "type": "string",
                     "required": true
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
                 "required": [
                   "username",
                   "email",
@@ -12830,7 +12903,10 @@
                   },
                   "password": {
                     "type": "string"
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
                   }
                 }
               },
@@ -12901,7 +12977,10 @@
         ],
         "summary": "Delete a user",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
         "parameters": [
           {
             "in": "path",
@@ -12913,7 +12992,10 @@
             "description": "user Id"
           }
         ],
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
         "responses": {
           "200": {
             "description": "Returns deleted user info",
@@ -12999,10 +13081,14 @@
               },
               "example": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "identier": "foobar",
 =======
                 "identifier": "foobar",
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+                "identifier": "foobar",
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
                 "password": "Test1234"
               }
             }
@@ -13097,7 +13183,10 @@
         ],
         "summary": "Default Callback from provider auth",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
         "parameters": [
           {
             "name": "provider",
@@ -13109,7 +13198,10 @@
             }
           }
         ],
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
         "responses": {
           "200": {
             "description": "Returns a jwt token and user info",
@@ -13247,7 +13339,10 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
     "/auth/change-password": {
       "post": {
         "tags": [
@@ -13304,7 +13399,10 @@
         }
       }
     },
+<<<<<<< HEAD
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
     "/auth/email-confirmation": {
       "get": {
         "tags": [
@@ -13316,12 +13414,18 @@
             "in": "query",
             "name": "confirmation",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "type": "string",
 =======
             "schema": {
               "type": "string"
             },
 >>>>>>> 181ea3b (Update strapi boilerplate)
+=======
+            "schema": {
+              "type": "string"
+            },
+>>>>>>> 181ea3baed9b6cfe172af97caaff72a11d2e49c1
             "description": "confirmation token received by email"
           }
         ],
