@@ -11,10 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.11.0",
-    "@strapi/plugin-users-permissions": "4.11.0",
     "@strapi/plugin-i18n": "4.11.0",
+    "@strapi/plugin-users-permissions": "4.11.0",
+    "@strapi/strapi": "4.11.0",
     "better-sqlite3": "8.0.1",
+    "pg": "^8.11.0",
+    "pg-connection-string": "^2.6.0",
     "slugify": "^1.6.5"
   },
   "author": {
