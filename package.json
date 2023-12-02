@@ -17,6 +17,7 @@
     "@strapi/plugin-users-permissions": "4.11.0",
     "@strapi/strapi": "4.11.0",
     "better-sqlite3": "8.0.1",
+    "cloudinary": "^1.41.0",
     "pg": "^8.11.0",
     "pg-connection-string": "^2.6.0",
     "slugify": "^1.6.5",
