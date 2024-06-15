@@ -1,4 +1,5 @@
 const { parse } = require("pg-connection-string");
+const { ssl } = require("pg/lib/defaults");
 
 module.exports = ({ env }) => {
   const { host, port, database, user, password } = parse(env("DATABASE_URL"));
@@ -12,6 +13,7 @@ module.exports = ({ env }) => {
         database,
         user,
         password,
+        ssl: true,
       },
       debug: false,
     },
